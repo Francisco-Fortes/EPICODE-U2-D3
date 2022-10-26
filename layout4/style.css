@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  font-weight: bold;
+}
+
+#frame {
+  height: 116vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-grow: 6;
+  flex-direction: row;
+}
+
+nav {
+  background-color: #c22177;
+  color: white;
+  flex-grow: 1;
+}
+
+header {
+  background-color: #111023;
+  color: white;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #111023;
+  color: white;
+  flex-grow: 1;
+}
+
+aside {
+  background-color: #320388;
+  color: white;
+  flex-grow: 1;
+}
+
+article {
+  background-color: white;
+  flex-grow: 4;
+}
+
+@media (max-width: 767px) {
+  nav {
+  }
+  article {
+  }
+}
+
+@media (max-width: 575px) {
+}
