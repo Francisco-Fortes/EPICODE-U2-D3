@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  font-weight: bold;
+}
+
+#frame {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+header,
+footer {
+  background-color: #111023;
+  color: white;
+  flex-grow: 1;
+}
+
+main {
+  display: flex;
+  flex-grow: 6;
+  flex-direction: column;
+}
+
+#middle-container {
+  display: flex;
+  flex-grow: 4;
+}
+
+article {
+  background-color: white;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: #320388;
+  color: white;
+  flex-grow: 1;
+}
+
+nav {
+  background-color: #c22177;
+  color: white;
+  flex-grow: 1;
+}
